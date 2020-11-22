@@ -1,0 +1,328 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Rubik:wght@600&display=swap");
+@media screen and (max-width: 2048px) {
+  body {
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 2%;
+    padding: 20px;
+  }
+  body #Brand .bname {
+    font-size: 70px;
+    margin-bottom: 1px;
+  }
+  body #Brand .slogan {
+    font-size: 7px;
+    margin-left: 2%;
+  }
+  body #container-fluid {
+    background-color: #bce6eb;
+  }
+  body #form {
+    font-family: "Roboto", sans-serif;
+    background-color: #fafafa;
+    margin-top: 2%;
+    width: 1000px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-bottom: 20%;
+  }
+  body #form #start .formtitle {
+    font-size: 25px;
+    margin-top: 3%;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 2%;
+  }
+  body #form #start #first {
+    float: left;
+    width: 430px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  body #form #start #first input {
+    width: 300px;
+    display: inline;
+  }
+  body #form #start #first label {
+    width: 110px;
+  }
+  body #form #start #second {
+    width: 450px;
+    float: right;
+    margin-top: 0;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  body #form #start #second input {
+    width: 300px;
+    display: inline;
+  }
+  body #form #start #second label {
+    width: 90px;
+  }
+  body #form #third {
+    background-color: whitesmoke;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 25%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  body #form #third table #td1 {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  body #form #third table #td2 {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
+  body #form #third table #td3 {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
+  body #form #third table #td4 {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
+  body #form #third table #td5 {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
+  body #form #third table #td6 {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    padding-right: 5px;
+  }
+  body #form #third table .checkbox1 {
+    margin-left: 30px;
+    height: 15px;
+    width: 15px;
+  }
+  body #form #third table .checkbox2 {
+    margin-left: 32px;
+    height: 15px;
+    width: 15px;
+  }
+  body #form #third table .checkbox3 {
+    margin-left: 13px;
+    height: 15px;
+    width: 15px;
+  }
+  body #form #third table .checkbox4 {
+    margin-left: 25px;
+    height: 15px;
+    width: 15px;
+  }
+  body #form #third table .checkbox5 {
+    margin-left: 13px;
+    height: 15px;
+    width: 15px;
+  }
+  body #form #third table .cdc {
+    font-size: 19px;
+    padding-top: 60px;
+  }
+  body #form #third table .tr {
+    font-size: 19px;
+  }
+  body #form #fourth {
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  body #form #fourth .rating {
+    margin-top: 2%;
+    font-size: 17px;
+  }
+  body #form #fourth table {
+    margin-top: 2%;
+  }
+  body #form #fourth #rangetable .range {
+    padding-right: 200px;
+    width: 370px;
+  }
+  body #form #fourth #rangetable .ragne2 {
+    padding-left: 50px;
+  }
+  body #form #fourth #rangetable .rangemeter1 {
+    padding-left: 4px;
+  }
+  body #form #fourth #rangetable .rangemeter2 {
+    padding-left: 5px;
+  }
+  body #form #fourth #additional .question {
+    font-weight: normal;
+    font-size: 17px;
+  }
+  body #form #fourth #additional .idea {
+    font-weight: normal;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    margin-left: 1px;
+    margin-top: 2%;
+    margin-right: 1px;
+  }
+  body #Brand .bname {
+    font-size: 70px;
+    margin-bottom: 1px;
+  }
+  body #Brand .slogan {
+    font-size: 7px;
+    margin-left: 2%;
+  }
+  body #container-fluid {
+    background-color: #bce6eb;
+  }
+  body #form {
+    font-family: "Roboto", sans-serif;
+    background-color: #fafafa;
+    margin-top: 2%;
+    width: 1000px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-bottom: 20%;
+  }
+  body #form #start .formtitle {
+    font-size: 25px;
+    margin-top: 3%;
+    font-family: "Rubik", sans-serif;
+    margin-bottom: 2%;
+  }
+  body #form #start #first {
+    width: 430px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  body #form #start #first input {
+    width: 300px;
+    display: inline;
+  }
+  body #form #start #first label {
+    width: 110px;
+  }
+  body #form #start #second {
+    width: 450px;
+    margin-top: 0;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  body #form #start #second input {
+    width: 300px;
+    display: inline;
+  }
+  body #form #start #second label {
+    width: 90px;
+  }
+  body #form #third {
+    background-color: whitesmoke;
+    padding: 25px;
+    border-radius: 10px;
+    margin-top: 25%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  body #form #third table #td1 {
+    -webkit-transform: rotate(90deg);
+            transform: rotate(90deg);
+  }
+  body #form #third table #td2 {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
+  body #form #third table #td3 {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
+  body #form #third table #td4 {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
+  body #form #third table #td5 {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+  }
+  body #form #third table #td6 {
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    padding-right: 5px;
+  }
+  body #form #third table .checkbox1 {
+    margin-left: 30px;
+    height: 15px;
+    width: 15px;
+  }
+  body #form #third table .checkbox2 {
+    margin-left: 32px;
+    height: 15px;
+    width: 15px;
+  }
+  body #form #third table .checkbox3 {
+    margin-left: 13px;
+    height: 15px;
+    width: 15px;
+  }
+  body #form #third table .checkbox4 {
+    margin-left: 25px;
+    height: 15px;
+    width: 15px;
+  }
+  body #form #third table .checkbox5 {
+    margin-left: 13px;
+    height: 15px;
+    width: 15px;
+  }
+  body #form #third table .cdc {
+    font-size: 19px;
+    padding-top: 60px;
+  }
+  body #form #third table .tr {
+    font-size: 19px;
+  }
+  body #form #fourth {
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  body #form #fourth .rating {
+    margin-top: 2%;
+    font-size: 17px;
+  }
+  body #form #fourth table {
+    margin-top: 2%;
+  }
+  body #form #fourth #rangetable .range {
+    padding-right: 200px;
+    width: 370px;
+  }
+  body #form #fourth #rangetable .ragne2 {
+    padding-left: 50px;
+  }
+  body #form #fourth #rangetable .rangemeter1 {
+    padding-left: 4px;
+  }
+  body #form #fourth #rangetable .rangemeter2 {
+    padding-left: 5px;
+  }
+  body #form #fourth #additional .question {
+    font-weight: normal;
+    font-size: 17px;
+  }
+  body #form #fourth #additional .idea {
+    font-weight: normal;
+  }
+}
+/*# sourceMappingURL=main.css.map */

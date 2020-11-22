@@ -1,0 +1,462 @@
+//imports
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Rubik:wght@600&display=swap');
+
+//variables
+$brandnamefont : 70px;
+$slogannamefont : 7px;
+$formtitlefont : 25px;
+$firstformback : #bce6eb;
+$fontfamily :  'Roboto', sans-serif;
+$fontfamily2 : 'Rubik', sans-serif;
+$fontweightfourthdiv: normal;
+$fontsizefourthdiv : 17px;
+$checkboxheight : 15px;
+$checkboxwidth : 15px;
+$backgroundcolorForforms : whitesmoke;
+$bodybackcolor : white;
+
+
+@media screen and(max-width:2048px){
+//cssbody
+body {
+    background-color: $bodybackcolor;
+    margin-left: 10%;
+    margin-right: 5%;
+    margin-top: 2%;
+    padding: 20px;
+  
+    #Brand {
+        .bname {
+          
+            font-size: $brandnamefont;
+            margin-bottom: 1px;
+           }
+        .slogan {
+            font-size: $slogannamefont;
+            margin-left: 2%;
+        }
+   }
+
+   #container-fluid{
+    background-color: $firstformback;
+    
+    
+}
+
+#form {
+    font-family: $fontfamily;
+    background-color: #fafafa;
+    margin-top: 2%; 
+    width: 1000px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-bottom: 20%;
+  
+    //startdiv
+    #start{
+        .formtitle {
+            font-size: $formtitlefont;
+            margin-top: 3%;
+            font-family: $fontfamily2;
+            margin-bottom: 2%;
+        }
+    //formInputs
+    
+        //first form
+        #first{
+            
+            float: left;
+            width: 430px;
+            margin-left: 2%;
+            margin-right: 2%;
+             input {
+                 width: 300px;
+                 display: inline;
+         }
+         label{
+             width: 110px;
+         }
+        }
+    
+        //second form
+         #second{
+           
+          width: 450px;
+            float: right;
+            margin-top: 0;
+            margin-left: 2%;
+            margin-right: 2%;
+             input {
+                 width: 300px;
+                 display: inline;
+         }
+         label{
+            width: 90px;
+        }
+        }
+    }
+    
+
+    //paragraph
+  
+   //third form
+   #third {
+       
+       background-color:$backgroundcolorForforms;
+       padding: 25px;
+       border-radius: 10px;
+       margin-top: 25%;
+       margin-left: 2%;
+       margin-right: 2%;
+         
+         table{
+            #td1  {
+                transform: rotate(90deg);
+              
+            }
+            #td2  {
+                transform: rotate(-90deg);
+               
+            }
+            #td3  {
+                transform: rotate(-90deg);
+               
+            }
+            
+            #td4  {
+                transform: rotate(-90deg);
+              
+            }
+            
+            #td5  {
+                transform: rotate(-90deg);
+               
+            }
+            
+            #td6  {
+                transform: rotate(-90deg);
+                padding-right: 5px;
+            }
+            
+
+         
+            //checkboxes
+            .checkbox1 {
+                margin-left: 30px;
+                height: $checkboxheight;
+                width: $checkboxwidth;
+            }
+            
+            .checkbox2 {
+                margin-left: 32px;
+                height: $checkboxheight;
+                width: $checkboxwidth;
+            }
+            .checkbox3 {
+                margin-left: 13px;
+                height: $checkboxheight;
+                width:$checkboxwidth;
+            }
+            .checkbox4 {
+                margin-left: 25px;
+                height: $checkboxheight;
+                width: $checkboxwidth;
+            }
+            .checkbox5 {
+                margin-left: 13px;
+                height:$checkboxheight;
+                width: $checkboxwidth;
+            }
+
+
+            //heading
+            .cdc {
+                font-size: 19px;
+                padding-top: 60px;
+            }
+            .tr {
+                font-size: 19px;
+            }
+         }
+   }
+
+
+
+//fourth
+#fourth {
+     background-color: $backgroundcolorForforms;
+     padding: 15px;
+     border-radius: 10px;
+     margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+  
+     
+    .rating{
+        margin-top: 2%;
+        font-size: $fontsizefourthdiv;
+    
+     
+    }
+    table{
+        margin-top: 2%;
+    }
+    //rangetable
+    #rangetable{
+        .range {
+            padding-right: 200px;
+            width: 370px;
+         }
+         .ragne2{
+             padding-left: 50px;
+         }
+     
+         .rangemeter1 {
+          padding-left: 4px;
+     
+         }
+         .rangemeter2{
+             padding-left:5px ;
+         }
+     
+    }
+    
+    #additional {
+      .question {
+          font-weight: $fontweightfourthdiv;
+          font-size: $fontsizefourthdiv;
+      }
+      .idea{
+        font-weight: $fontweightfourthdiv;
+      }
+    }
+}
+}
+}
+}
+@media screen and(max-width:800px){
+  //cssbody
+body {
+    margin-left: 1px;
+    margin-top: 2%;
+    margin-right: 1px;
+    #Brand {
+        .bname {
+            font-size: $brandnamefont;
+            margin-bottom: 1px;
+           }
+        .slogan {
+            
+            font-size: $slogannamefont;
+            margin-left: 2%;
+        }
+   }
+
+   #container-fluid{
+    background-color: $firstformback;
+    
+    
+}
+
+#form {
+    font-family: $fontfamily;
+    background-color: #fafafa;
+    margin-top: 2%; 
+    width: 1000px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    margin-bottom: 20%;
+  
+    //startdiv
+    #start{
+        .formtitle {
+            font-size: $formtitlefont;
+            margin-top: 3%;
+            font-family: $fontfamily2;
+            margin-bottom: 2%;
+        }
+    //formInputs
+    
+        //first form
+        #first{
+            
+            
+            width: 430px;
+            margin-left: 2%;
+            margin-right: 2%;
+             input {
+                 width: 300px;
+                 display: inline;
+         }
+         label{
+             width: 110px;
+         }
+        }
+    
+        //second form
+         #second{
+           
+          width: 450px;
+            
+            margin-top: 0;
+            margin-left: 2%;
+            margin-right: 2%;
+             input {
+                 width: 300px;
+                 display: inline;
+         }
+         label{
+            width: 90px;
+        }
+        }
+    }
+    
+
+    //paragraph
+  
+   //third form
+   #third {
+       
+       background-color: $backgroundcolorForforms;
+       padding: 25px;
+       border-radius: 10px;
+       margin-top: 25%;
+       margin-left: 2%;
+       margin-right: 2%;
+         
+         table{
+            #td1  {
+                transform: rotate(90deg);
+              
+            }
+            #td2  {
+                transform: rotate(-90deg);
+               
+            }
+            #td3  {
+                transform: rotate(-90deg);
+               
+            }
+            
+            #td4  {
+                transform: rotate(-90deg);
+              
+            }
+            
+            #td5  {
+                transform: rotate(-90deg);
+               
+            }
+            
+            #td6  {
+                transform: rotate(-90deg);
+                padding-right: 5px;
+            }
+            
+
+         
+            //checkboxes
+            .checkbox1 {
+                margin-left: 30px;
+                height: $checkboxheight;
+                width: $checkboxwidth;
+            }
+            
+            .checkbox2 {
+                margin-left: 32px;
+                height: $checkboxheight;
+                width: $checkboxwidth;
+            }
+            .checkbox3 {
+                margin-left: 13px;
+                height: $checkboxheight;
+                width:$checkboxwidth;
+            }
+            .checkbox4 {
+                margin-left: 25px;
+                height: $checkboxheight;
+                width: $checkboxwidth;
+            }
+            .checkbox5 {
+                margin-left: 13px;
+                height:$checkboxheight;
+                width: $checkboxwidth;
+            }
+
+
+            //heading
+            .cdc {
+                font-size: 19px;
+                padding-top: 60px;
+            }
+            .tr {
+                font-size: 19px;
+            }
+         }
+   }
+
+
+
+//fourth
+#fourth {
+     background-color: $backgroundcolorForforms;
+     padding: 15px;
+     border-radius: 10px;
+     margin-top: 3%;
+    margin-left: 2%;
+    margin-right: 2%;
+  
+     
+    .rating{
+        margin-top: 2%;
+        font-size: $fontsizefourthdiv;
+    
+     
+    }
+    table{
+        margin-top: 2%;
+    }
+    //rangetable
+    #rangetable{
+        .range {
+            padding-right: 200px;
+            width: 370px;
+         }
+         .ragne2{
+             padding-left: 50px;
+         }
+     
+         .rangemeter1 {
+          padding-left: 4px;
+     
+         }
+         .rangemeter2{
+             padding-left:5px ;
+         }
+     
+    }
+    
+    #additional {
+      .question {
+          font-weight: $fontweightfourthdiv;
+          font-size: $fontsizefourthdiv;
+      }
+      .idea{
+        font-weight: $fontweightfourthdiv;
+      }
+    }
+}
+}
+}  
+}
+
+
+
+
+
+
